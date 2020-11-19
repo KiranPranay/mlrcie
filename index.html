@@ -82,8 +82,8 @@
                             <div class="move-up">
                             <a data-scroll href="#home" class="arrow_carrot-2up"></a>
                         </div>
-    -->
-    <button onclick="topFunction()" id="myBtnu" >Top<a class="arrow_carrot-2up"></a></button>
+    
+    <button onclick="topFunction()" id="myBtnu" >Top<a class="arrow_carrot-2up"></a></button>-->
     <!-- preloader -->
     <div id="pre-loader">
         <div class="pre-loader-container">
@@ -873,35 +873,167 @@
 
                     <!-- team-listing -->
                     <div class="team-listing-wrapper row">
-                        <?php 
-                        $dir= 'images/pics';
-                        $imgs= scandir($dir);
-                        $count= count($imgs);
-
-                        ?>
-                        <?php
-                        for($i=2;$i<$count;$i++){
-                            $imgsss=$imgs[$i];
-                                                $imgss= rtrim($imgsss, ".jpeg");
-                                                $imga = explode("-",$imgss);
-                                                $imgn= $imga[0];
-                                                $imgd= $imga[1];
-                            ?>
-
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp"
-                            data-wow-duration="1s" data-wow-delay="0.8s">
-                            <img class="team-media" src="images\pics\<?php echo $imgsss ?>" alt="<?php echo $imgn ?>
-                                " />
-                            <div class="team-overlay">
-                                <h3 class="team-overlay-title text-light" style="color:black"><?php echo $imgn ?></h3>
-                                <p class="team-overlay-designation"><?php echo $imgd ?></p>
-                            </div>
-                        </div>
-                        <?php 
-                        }
-                        ?>
-
-
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\ALEKHYA-DIGITALMARKETING.jpeg" alt="ALEKHYA        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">ALEKHYA</h3>
+            <p class="team-overlay-designation">DIGITALMARKETING.jpeg</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\AMBIKA-MARKETING&SPONS.jpeg" alt="AMBIKA        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">AMBIKA</h3>
+            <p class="team-overlay-designation">MARKETING&SPONS.jpeg</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\ARSHAD-CHEIFEXEC..MAN.jpeg" alt="ARSHAD        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">ARSHAD</h3>
+            <p class="team-overlay-designation">CHEIFEXEC..MAN.jpeg</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\BALABHANU-business_operations.jpeg" alt="BALABHANU        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">BALABHANU</h3>
+            <p class="team-overlay-designation">business_operations.jpeg</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\CHANDHANESWARI-CHEIFEDITOR.jpeg" alt="CHANDHANESWARI        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">CHANDHANESWARI</h3>
+            <p class="team-overlay-designation">CHEIFEDITOR.jpeg</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\MANITHARUN-MEDIA.jpeg" alt="MANITHARUN        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">MANITHARUN</h3>
+            <p class="team-overlay-designation">MEDIA.jpeg</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\NISHANTH-Resources.jpeg" alt="NISHANTH        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">NISHANTH</h3>
+            <p class="team-overlay-designation">Resources.jpeg</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\PRASANNA-HR.jpeg" alt="PRASANNA        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">PRASANNA</h3>
+            <p class="team-overlay-designation">HR.jpeg</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\Phaneendhar-Technology.jpeg" alt="Phaneendhar        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">Phaneendhar</h3>
+            <p class="team-overlay-designation">Technology.jpeg</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\SAINIKHIL-MHRD.jpeg" alt="SAINIKHIL        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">SAINIKHIL</h3>
+            <p class="team-overlay-designation">MHRD.jpeg</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\SANDHYA-Deputyeditor.jpeg" alt="SANDHYA        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">SANDHYA</h3>
+            <p class="team-overlay-designation">Deputyeditor.jpeg</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\SHIVAKARTHIK-HR.jpeg" alt="SHIVAKARTHIK        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">SHIVAKARTHIK</h3>
+            <p class="team-overlay-designation">HR.jpeg</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\SHIVASAI-Media.jpeg" alt="SHIVASAI        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">SHIVASAI</h3>
+            <p class="team-overlay-designation">Media.jpeg</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\SWARNA-MARKETING&SPONS.jpeg" alt="SWARNA        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">SWARNA</h3>
+            <p class="team-overlay-designation">MARKETING&SPONS.jpeg</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\Sravani-LEGALS.jpeg" alt="Sravani        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">Sravani</h3>
+            <p class="team-overlay-designation">LEGALS.jpeg</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\ZICKRULLAH-Socialmedia.jpeg" alt="ZICKRULLAH        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">ZICKRULLAH</h3>
+            <p class="team-overlay-designation">Socialmedia.jpeg</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\keerthana-HR.jpeg" alt="keerthana        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">keerthana</h3>
+            <p class="team-overlay-designation">HR.jpeg</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 team-listing wow fadeInUp" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <img class="team-media" src="images\pics\vaibhavsurya-Graphicdesign.jpeg" alt="vaibhavsurya        " />
+        <div class="team-overlay">
+            <h3 class="team-overlay-title text-light">vaibhavsurya</h3>
+            <p class="team-overlay-designation">Graphicdesign.jpeg</p>
+        </div>
+    </div>
                     </div>
                     <!-- /team-listing -->
                     <div class="row">
