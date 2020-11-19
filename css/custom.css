@@ -1,0 +1,9 @@
+
+.eventimg2 img {
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+}
+.eventimg2{
+  display: inline-block;
+}
