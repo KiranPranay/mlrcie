@@ -1,7 +1,7 @@
 .eventimg2 img {
   object-fit: cover;
-  width: 230px;
-  height: 230px;
+  width: 130px;
+  height: 130px;
 }
 .eventimg2 {
   display: inline-block;
@@ -13,6 +13,24 @@
 .event-grid {
   display: grid;
   grid-gap: 2em;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
   padding: 3em;
+}
+.patners img {
+  object-fit: cover;
+  width: 130px;
+  height: 130px;
+}
+.patners {
+  display: inline-block;
+}
+.patner-grid {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  padding: 3em;
+}
+.team-listing-wrapper {
+  margin-left: 2%;
+  margin-right: 2%;
 }
