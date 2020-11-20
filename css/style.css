@@ -2418,7 +2418,7 @@ article.blog-post:hover .post-title a {
   webkit-box-shadow: inset 0px 0px 0px 10px rgba(255, 255, 255, 0.4);
   -moz-box-shadow: inset 0px 0px 0px 10px rgba(255, 255, 255, 0.4);
   box-shadow: inset 0px 0px 0px 2px rgba(255, 255, 255, 0.4);
-  border: 6px solid#e1306c;
+  border: 6px solid#e1306c !important;
 }
 
 /* 22. Media Queries
