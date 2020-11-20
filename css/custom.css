@@ -1,7 +1,7 @@
 .eventimg2 img {
   object-fit: cover;
-  width: 130px;
-  height: 130px;
+  width: 140px;
+  height: 140px;
 }
 .eventimg2 {
   display: inline-block;
@@ -16,10 +16,16 @@
   grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
   padding: 3em;
 }
+.event-grid1 {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 3em;
+}
 .patners img {
   object-fit: cover;
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
 }
 .patners {
   display: inline-block;
