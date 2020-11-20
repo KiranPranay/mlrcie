@@ -45,3 +45,11 @@
     margin: 5px !important;
   }
 }
+@media (min-width: 1000px) {
+  .doone {
+    display: block !important;
+  }
+}
+.doone {
+  display: none;
+}
