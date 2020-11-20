@@ -40,3 +40,8 @@
   margin-left: 2%;
   margin-right: 2%;
 }
+@media (max-width: 680px) {
+  .team-listing {
+    margin: 5px !important;
+  }
+}
