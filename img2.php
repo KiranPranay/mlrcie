@@ -4,6 +4,7 @@
                         $count= count($imgs);
 
                         ?>
+<textarea cols="180" rows="40">
 <?php
                     for($i=2;$i<=$count;$i++){
                         $imgsss=$imgs[$i];

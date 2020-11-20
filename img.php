@@ -8,7 +8,7 @@ $count= count($imgs);
     <?php
 for($i=2;$i<$count;$i++){
     $imgsss=$imgs[$i];
-                        $imgss= rtrim($imgsss, ".PNG");
+                        $imgss= rtrim($imgsss, ".jpeg");
                         $imga = explode("-",$imgss);
                         $imgn= $imga[0];
                         $imgd= $imga[1];
