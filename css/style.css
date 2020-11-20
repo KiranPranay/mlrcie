@@ -1614,7 +1614,7 @@ ul.team-overlay-social li a:hover {
 
 .service-list .service-category {
   display: block;
-  font-size: 18px;
+  font-size: 15px;
   color: #fff;
   -webkit-transform: translateY(10px);
   -moz-transform: -moz-translateY(10px);
@@ -1628,7 +1628,7 @@ ul.team-overlay-social li a:hover {
 
 .service-list .service-category1 {
   display: block;
-  font-size: 15px;
+  font-size: 13px;
   color: #fff;
   margin-top: 0px;
   -webkit-transform: translateY(10px);
