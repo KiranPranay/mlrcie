@@ -36,6 +36,11 @@
   grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
   padding: 3em;
 }
+@media (max-width: 425px) {
+  .patner-grid {
+    padding: 0px;
+  }
+}
 .team-listing-wrapper {
   margin-left: 2%;
   margin-right: 2%;
