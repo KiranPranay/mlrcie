@@ -495,6 +495,10 @@ ul.hr li.hr-icon {
   z-index: 1000;
   left: 40px;
 }
+.nav-logo{
+  height: 100PX;
+  width: auto;
+}
 .logo {
   font-family: "Raleway", Arial, sans-serif;
   font-weight: 200;
