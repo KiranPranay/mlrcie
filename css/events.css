@@ -1,0 +1,791 @@
+/*! CSS Used from: https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+section {
+  display: block;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+label img {
+  object-fit: fill;
+  height: 280px;
+}
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+input {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+input {
+  overflow: visible;
+}
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+.container2 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+/* .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+} */
+.col-md-4 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 768px) {
+  .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+@media print {
+  *,
+  ::after,
+  ::before {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+  img {
+    page-break-inside: avoid;
+  }
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+  .container {
+    min-width: 992px !important;
+  }
+}
+/*! CSS Used from: https://hacksrm.tech/dist/css/style.min.css */
+/* * {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition-duration: 50ms;
+  transition-duration: 50ms;
+} */
+.row {
+  margin: auto !important;
+}
+.section-title {
+  margin: 50px 0;
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+}
+main .page-section {
+  padding: 60px 0;
+  background-color: #fff;
+}
+/* .glimpse {
+  background-image: url("https://hacksrm.tech/assets/images/glimpse/coding-background.jpg");
+  background-attachment: fixed;
+} */
+.glimpse .section-title {
+  margin-top: 0;
+  color: #fff;
+}
+.glimpse .stats {
+  margin: 150px auto 50px auto;
+}
+.glimpse .container .col-md-4 {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.glimpse .container .col-md-4 .box {
+  padding: 20px 90px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.glimpse .container .col-md-4 .box p {
+  padding: 0;
+  margin: 0;
+}
+.glimpse .container .col-md-4 .box .icon {
+  font-size: 5rem;
+}
+.glimpse .container .col-md-4 .box .value {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.glimpse .container .col-md-4 .box .title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+/*! CSS Used from: https://hacksrm.tech/dist/css/responsive.min.css */
+@media screen and (max-width: 900px) {
+  .row {
+    margin: -15px;
+  }
+  main section {
+    padding: 30px 0;
+  }
+  .section-title {
+    margin: 50px 0;
+    font-size: 3rem !important;
+    text-align: center;
+    font-weight: 700;
+  }
+  .glimpse #slider {
+    height: 150px;
+  }
+  .glimpse .stats {
+    margin: 40px auto 0px auto;
+  }
+}
+/*! CSS Used from: https://hacksrm.tech/dist/css/canvas-particle.min.css */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*! CSS Used from: https://hacksrm.tech/dist/css/carousel.min.css */
+#slider {
+  position: relative;
+  width: 70%;
+  height: 310px;
+  margin: 80px auto;
+  font-family: "Helvetica Neue", sans-serif;
+  -webkit-perspective: 1400px;
+  perspective: 1400px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+input[type="radio"] {
+  position: relative;
+  top: 108%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  margin: 0 15px 0 0;
+  opacity: 0.4;
+  -webkit-transform: translateX(-83px);
+  transform: translateX(-83px);
+  cursor: pointer;
+}
+input[type="radio"]:nth-child(5) {
+  margin-right: 0px;
+}
+input[type="radio"]:checked {
+  opacity: 1;
+}
+#slider label {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  /* height: 100%; */
+  left: 0;
+  top: 0;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: -webkit-transform 400ms ease;
+  transition: -webkit-transform 400ms ease;
+  transition: transform 400ms ease;
+  transition: transform 400ms ease, -webkit-transform 400ms ease;
+}
+#slider label img {
+  width: 100%;
+}
+#slide1 {
+  background: tomato;
+}
+#slide2 {
+  background: yellowgreen;
+}
+#slide3 {
+  background: dodgerblue;
+}
+#slide4 {
+  background: slateblue;
+}
+#slide5 {
+  background: violet;
+}
+#s1:checked ~ #slide1,
+#s2:checked ~ #slide2,
+#s3:checked ~ #slide3,
+#s4:checked ~ #slide4,
+#s5:checked ~ #slide5 {
+  -webkit-box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3),
+    0 12px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 6px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(0%, 0, 0px);
+  transform: translate3d(0%, 0, 0px);
+}
+#s1:checked ~ #slide2,
+#s2:checked ~ #slide3,
+#s3:checked ~ #slide4,
+#s4:checked ~ #slide5,
+#s5:checked ~ #slide1 {
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3),
+    0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(15%, 0, -100px);
+  transform: translate3d(15%, 0, -100px);
+}
+#s1:checked ~ #slide3,
+#s2:checked ~ #slide4,
+#s3:checked ~ #slide5,
+#s4:checked ~ #slide1,
+#s5:checked ~ #slide2 {
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translate3d(30%, 0, -250px);
+  transform: translate3d(30%, 0, -250px);
+}
+#s1:checked ~ #slide4,
+#s2:checked ~ #slide5,
+#s3:checked ~ #slide1,
+#s4:checked ~ #slide2,
+#s5:checked ~ #slide3 {
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translate3d(-30%, 0, -250px);
+  transform: translate3d(-30%, 0, -250px);
+}
+#s1:checked ~ #slide5,
+#s2:checked ~ #slide1,
+#s3:checked ~ #slide2,
+#s4:checked ~ #slide3,
+#s5:checked ~ #slide4 {
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3),
+    0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(-15%, 0, -100px);
+  transform: translate3d(-15%, 0, -100px);
+}
+
+/* slide2 */
+#s21:checked ~ #slide21,
+#s22:checked ~ #slide22,
+#s23:checked ~ #slide23,
+#s24:checked ~ #slide24,
+#s25:checked ~ #slide25 {
+  -webkit-box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3),
+    0 12px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 6px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(0%, 0, 0px);
+  transform: translate3d(0%, 0, 0px);
+}
+#s21:checked ~ #slide22,
+#s22:checked ~ #slide23,
+#s23:checked ~ #slide24,
+#s24:checked ~ #slide25,
+#s25:checked ~ #slide21 {
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3),
+    0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(15%, 0, -100px);
+  transform: translate3d(15%, 0, -100px);
+}
+#s21:checked ~ #slide23,
+#s22:checked ~ #slide24,
+#s23:checked ~ #slide25,
+#s24:checked ~ #slide21,
+#s25:checked ~ #slide22 {
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translate3d(30%, 0, -250px);
+  transform: translate3d(30%, 0, -250px);
+}
+#s21:checked ~ #slide24,
+#s22:checked ~ #slide25,
+#s23:checked ~ #slide21,
+#s24:checked ~ #slide22,
+#s25:checked ~ #slide23 {
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translate3d(-30%, 0, -250px);
+  transform: translate3d(-30%, 0, -250px);
+}
+#s21:checked ~ #slide25,
+#s22:checked ~ #slide21,
+#s23:checked ~ #slide22,
+#s24:checked ~ #slide23,
+#s25:checked ~ #slide24 {
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3),
+    0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(-15%, 0, -100px);
+  transform: translate3d(-15%, 0, -100px);
+}
+/* slide3 */
+#s31:checked ~ #slide31,
+#s32:checked ~ #slide32,
+#s33:checked ~ #slide33,
+#s34:checked ~ #slide34,
+#s35:checked ~ #slide35 {
+  -webkit-box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3),
+    0 12px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 6px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(0%, 0, 0px);
+  transform: translate3d(0%, 0, 0px);
+}
+#s31:checked ~ #slide32,
+#s32:checked ~ #slide33,
+#s33:checked ~ #slide34,
+#s34:checked ~ #slide35,
+#s35:checked ~ #slide31 {
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3),
+    0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(15%, 0, -100px);
+  transform: translate3d(15%, 0, -100px);
+}
+#s31:checked ~ #slide33,
+#s32:checked ~ #slide34,
+#s33:checked ~ #slide35,
+#s34:checked ~ #slide31,
+#s35:checked ~ #slide32 {
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translate3d(30%, 0, -250px);
+  transform: translate3d(30%, 0, -250px);
+}
+#s31:checked ~ #slide34,
+#s32:checked ~ #slide35,
+#s33:checked ~ #slide31,
+#s34:checked ~ #slide32,
+#s35:checked ~ #slide33 {
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translate3d(-30%, 0, -250px);
+  transform: translate3d(-30%, 0, -250px);
+}
+#s31:checked ~ #slide35,
+#s32:checked ~ #slide31,
+#s33:checked ~ #slide32,
+#s34:checked ~ #slide33,
+#s35:checked ~ #slide34 {
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3),
+    0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(-15%, 0, -100px);
+  transform: translate3d(-15%, 0, -100px);
+}
+/* slide4 */
+#s41:checked ~ #slide41,
+#s42:checked ~ #slide42,
+#s43:checked ~ #slide43,
+#s44:checked ~ #slide44,
+#s45:checked ~ #slide45 {
+  -webkit-box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3),
+    0 12px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 6px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(0%, 0, 0px);
+  transform: translate3d(0%, 0, 0px);
+}
+#s41:checked ~ #slide42,
+#s42:checked ~ #slide43,
+#s43:checked ~ #slide44,
+#s44:checked ~ #slide45,
+#s45:checked ~ #slide41 {
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3),
+    0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(15%, 0, -100px);
+  transform: translate3d(15%, 0, -100px);
+}
+#s41:checked ~ #slide43,
+#s42:checked ~ #slide44,
+#s43:checked ~ #slide45,
+#s44:checked ~ #slide41,
+#s45:checked ~ #slide42 {
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translate3d(30%, 0, -250px);
+  transform: translate3d(30%, 0, -250px);
+}
+#s41:checked ~ #slide44,
+#s42:checked ~ #slide45,
+#s43:checked ~ #slide41,
+#s44:checked ~ #slide42,
+#s45:checked ~ #slide43 {
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translate3d(-30%, 0, -250px);
+  transform: translate3d(-30%, 0, -250px);
+}
+#s41:checked ~ #slide45,
+#s42:checked ~ #slide41,
+#s43:checked ~ #slide42,
+#s44:checked ~ #slide43,
+#s45:checked ~ #slide44 {
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3),
+    0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(-15%, 0, -100px);
+  transform: translate3d(-15%, 0, -100px);
+}
+/* slide5 */
+#s51:checked ~ #slide51,
+#s52:checked ~ #slide52,
+#s53:checked ~ #slide53,
+#s54:checked ~ #slide54,
+#s55:checked ~ #slide55 {
+  -webkit-box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3),
+    0 12px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 6px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(0%, 0, 0px);
+  transform: translate3d(0%, 0, 0px);
+}
+#s51:checked ~ #slide52,
+#s52:checked ~ #slide53,
+#s53:checked ~ #slide54,
+#s54:checked ~ #slide55,
+#s55:checked ~ #slide51 {
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3),
+    0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(15%, 0, -100px);
+  transform: translate3d(15%, 0, -100px);
+}
+#s51:checked ~ #slide53,
+#s52:checked ~ #slide54,
+#s53:checked ~ #slide55,
+#s54:checked ~ #slide51,
+#s55:checked ~ #slide52 {
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translate3d(30%, 0, -250px);
+  transform: translate3d(30%, 0, -250px);
+}
+#s51:checked ~ #slide54,
+#s52:checked ~ #slide55,
+#s53:checked ~ #slide51,
+#s54:checked ~ #slide52,
+#s55:checked ~ #slide53 {
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translate3d(-30%, 0, -250px);
+  transform: translate3d(-30%, 0, -250px);
+}
+#s51:checked ~ #slide55,
+#s52:checked ~ #slide51,
+#s53:checked ~ #slide52,
+#s54:checked ~ #slide53,
+#s55:checked ~ #slide54 {
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3),
+    0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(-15%, 0, -100px);
+  transform: translate3d(-15%, 0, -100px);
+}
+/* slide6 */
+#s61:checked ~ #slide61,
+#s62:checked ~ #slide62,
+#s63:checked ~ #slide63,
+#s64:checked ~ #slide64,
+#s65:checked ~ #slide65 {
+  -webkit-box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3),
+    0 12px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 6px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(0%, 0, 0px);
+  transform: translate3d(0%, 0, 0px);
+}
+#s61:checked ~ #slide62,
+#s62:checked ~ #slide63,
+#s63:checked ~ #slide64,
+#s64:checked ~ #slide65,
+#s65:checked ~ #slide61 {
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3),
+    0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(15%, 0, -100px);
+  transform: translate3d(15%, 0, -100px);
+}
+#s61:checked ~ #slide63,
+#s62:checked ~ #slide64,
+#s63:checked ~ #slide65,
+#s64:checked ~ #slide61,
+#s65:checked ~ #slide62 {
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translate3d(30%, 0, -250px);
+  transform: translate3d(30%, 0, -250px);
+}
+#s61:checked ~ #slide64,
+#s62:checked ~ #slide65,
+#s63:checked ~ #slide61,
+#s64:checked ~ #slide62,
+#s65:checked ~ #slide63 {
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translate3d(-30%, 0, -250px);
+  transform: translate3d(-30%, 0, -250px);
+}
+#s61:checked ~ #slide65,
+#s62:checked ~ #slide61,
+#s63:checked ~ #slide62,
+#s64:checked ~ #slide63,
+#s65:checked ~ #slide64 {
+  -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3),
+    0 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate3d(-15%, 0, -100px);
+  transform: translate3d(-15%, 0, -100px);
+}
+
+/*! CSS Used from: https://hacksrm.tech/dist/css/footer.min.css */
+* {
+  margin: 0;
+  padding: 0;
+}
+/*! CSS Used from: https://hacksrm.tech/dist/css/scrollbar.min.css */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3aZQNVED7rKGKxtqIqX5EUAnx4RHw.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3aZQNVED7rKGKxtqIqX5EUA3x4RHw.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3aZQNVED7rKGKxtqIqX5EUAnx4RHw.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3aZQNVED7rKGKxtqIqX5EUA3x4RHw.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3aZQNVED7rKGKxtqIqX5EUAnx4RHw.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3aZQNVED7rKGKxtqIqX5EUA3x4RHw.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3aZQNVED7rKGKxtqIqX5EUAnx4RHw.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3aZQNVED7rKGKxtqIqX5EUA3x4RHw.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3aZQNVED7rKGKxtqIqX5EUAnx4RHw.woff2)
+    format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3aZQNVED7rKGKxtqIqX5EUA3x4RHw.woff2)
+    format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v16/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
