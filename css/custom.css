@@ -83,3 +83,18 @@
     position: fixed;
     top: 25%; 
  }
+ .btn-primary{
+   color: black;
+ }
+ .btn-primary:hover{
+  color: white;
+}
+.btn-primary > a{
+  color: black;
+}
+.btn-primary:hover > a{
+ color: white;
+}
+.close{
+  color: white;
+}
