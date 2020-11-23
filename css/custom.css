@@ -26,6 +26,7 @@
   object-fit: cover;
   width: 150px;
   height: 150px;
+  background-color: white;
 }
 .patners {
   display: inline-block;
@@ -75,3 +76,10 @@
   width:100%;
   position:absolute;
   }
+
+  .modal {
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 25%; 
+ }

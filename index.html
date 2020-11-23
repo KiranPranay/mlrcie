@@ -150,7 +150,6 @@
       media="screen"
     />
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-
     <script
       type="text/javascript"
       src="js/vendor/jquery-1.11.0.min.js"
@@ -249,7 +248,28 @@
         </div>
       </section>
       <!-- /home -->
-
+      <!-- Modal -->
+      ​  <div class="modal fade" id="myModal" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header" >
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" style="color: black;" >&times;</span>
+              </button>
+              <h4 class="modal-title" style="color: black;">Upcoming Events</h4>
+            </div>
+            <div class="modal-body">
+              <p style="color: black;">The <strong>show</strong> method shows the modal and the <strong>hide</strong> method hides the modal.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary"><a href="https://www.webud.in">See More</a></button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
       <!-- Main Wrapper -->
       <div id="main-wrapper">
         <!-- about -->
@@ -584,12 +604,9 @@ entrepreneurs.</p>
                   class="section-title-border wow pulse"
                   data-wow-duration="1s"
                   data-wow-delay="1s"
-                  >INCUBATOR</span
-                >
+                  >INCUBATOR</span>
               </h2>
-              <div
-                class="section-info col-md-10 col-md-offset-1 text-center wow fadeInDown"
-              >
+              <div class="section-info col-md-10 col-md-offset-1 text-center wow fadeInDown">
                 <h3>
                   <strong> StartUps </strong>
                 </h3>
@@ -599,7 +616,7 @@ entrepreneurs.</p>
                   <li class="hr-line"><span></span></li>
                 </ul>
                 <p>The Start-up lab program is another initiative took by MLRIT CIE for the welfare of the individuals who are looking to set their careers as entrepreneurs. Start-up lab provides them an opportunity to transform their ideas into real-time ventures through which they can gain a handful of experience of this entrepreneurial world by making use of mentoring, guidence, seed-funding as well as co-working space. We also provide incubation for some best ideas</p>
-                <img src="./images/startups/techthrill-logo.png" style="position: relative;padding: 50px 0px; object-fit:unset; height: auto; width: 250px;"/>
+                <a href="http://www.techthrill.in/"><img src="./images/startups/techthrill-logo.png" style="position: relative;padding: 50px 0px; object-fit:unset; height: auto; width: 250px; background-color: white;"/></a>
               </div>
             </div>
         </section>
@@ -614,6 +631,7 @@ entrepreneurs.</p>
                   >EVENTS</span
                 >
               </h2>
+              <!-- Button trigger modal -->
               <div
                 class="section-info col-md-10 col-md-offset-1 text-center wow fadeInDown padset"               
               >
