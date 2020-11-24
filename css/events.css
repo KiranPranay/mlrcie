@@ -19,6 +19,38 @@ label img {
   object-fit: fill;
   height: 280px;
 }
+@media (min-width: 760px) {
+  label img {
+    height: 380px;
+  }
+  #slider input {
+    top: 138%;
+  }
+  .hr,
+  .mid-hed {
+    position: relative;
+    top: 70px;
+  }
+}
+@media (min-width: 1000px) {
+  label img {
+    height: 480px;
+  }
+  #slider input {
+    top: 168%;
+  }
+  .hr,
+  .mid-hed {
+    position: relative;
+    top: 140px;
+  }
+  .container2 {
+    padding-top: 90px !important;
+  }
+  .mid-hed {
+    padding-top: 20px;
+  }
+}
 label {
   display: inline-block;
   margin-bottom: 0.5rem;
