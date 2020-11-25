@@ -139,6 +139,9 @@ main .page-section:nth-child(2n + 0) {
 .team .card-container .team-card .img-wrapper img {
   width: 100%;
 }
+.img-wrapper {
+  margin-bottom: 15px !important;
+}
 .team .card-container .team-card .img-wrapper:hover {
   -webkit-transform: scale(1.1, 1.1);
   transform: scale(1.1, 1.1);
