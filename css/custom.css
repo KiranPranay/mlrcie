@@ -103,3 +103,6 @@
 .close {
   color: white;
 }
+.titlefix {
+  padding-top: 15px !important;
+}
