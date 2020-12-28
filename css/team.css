@@ -193,7 +193,7 @@ main .page-section:nth-child(2n + 0) {
   color: #fff;
   border-radius: 100%;
   font-size: 1.7rem;
-  margin-right: 1.0rem;
+  margin-right: 1rem;
 }
 
 ::-webkit-scrollbar {
@@ -207,4 +207,11 @@ main .page-section:nth-child(2n + 0) {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+.table {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
 }
